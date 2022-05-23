@@ -14,7 +14,7 @@ with open('README.md') as f:
 setup(
     name="django-plotly-dash",
     version=__version__,
-    url="https://github.com/GibbsConsulting/django-plotly-dash",
+    url="https://github.com/ezeakeal/django-plotly-dash",
     description="Django use of plotly dash apps through template tags",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -49,7 +49,7 @@ setup(
 
                         'dash-bootstrap-components<1',
                         'channels<3.0',
-                        'Django>=2.2,<4.0.0',
+                        'Django>=2.2,<=4.0.4',
                         'Flask>=1.0.2',
                         'Werkzeug>=2.0,<2.1',
     ],
